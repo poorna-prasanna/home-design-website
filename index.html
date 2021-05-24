@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Room desgin</title>
+</head>
+<style>
+    body{
+      border-radius: 5px;
+      box-sizing: 10px;
+        padding: 18px 30px;
+   margin: none;
+    background-color:blue;
+    }
+    button{
+        border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    color: red;
+    margin: 2px;
+    display: inline-block;
+    padding: 10px 10px;
+    text-align: center;
+    font-family: Lucida Handwriting;
+    font-size: 16px;
+    background-color:lime;
+    }
+    button:hover {
+    background-color:red;
+    color:yellow;
+  }
+  button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+  }
+
+  button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+  }
+  button:hover span {
+    padding-right: 18px;
+  }
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px burlywood;
+    transform: translateY(4px);
+  }
+</style>
+<body>
+    <h1 style="font-family:Lucida Handwriting;color:white;font: size 16px;margin:2px;margin-top:2px;">room desgin</h1>
+      <a href="hall.html">
+    <button ><span>hall desgin</span></button>
+    </a>
+    <a href="bed room.html">
+      <button ><span>bed room desgin</span></button>
+      </a>
+      <a href="kicthen.html">
+        <button ><span>kicthen desgin</span></button>
+        </a>
+        <p style="font-family:Lucida Handwriting;color:whitesmoke;font-size :16px;">Click here to see magic🎉✨✨</p>
+        <a href="rose.html">
+          <button ><span>Click here</span></button>
+          </a>
+</body>
+</html>
