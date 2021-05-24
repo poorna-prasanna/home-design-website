@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main</title>
+</head>
+<style>
+    body{
+      border-radius: 10px;
+      box-sizing: border-box;
+        padding: 10px 12px;
+        margin-top: 2px;
+    background-color:red;
+    }
+    
+    button{
+        border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    color:white;
+    margin: 2px;
+    display: inline-block;
+    padding: 10px 10px;
+    text-align: center;
+    font-family: Lucida Handwriting;
+    font-size: 16px;
+    background-color:#014182;
+    }
+    button:hover {
+    background-color:aquamarine;
+    color:darkblue;
+  }
+  button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+  }
+
+  button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+  }
+  button:hover span {
+    padding-right: 18px;
+  }
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px burlywood;
+    transform: translateY(4px);
+  }
+  ::-webkit-scrollbar {
+	display: none;
+}
+</style>
+<body>
+    <h1 style="font-family:Lucida Handwriting;color:lime;font: size 16px;margin:2px;margin-top:2px;">Are you goiong to construct house🤔?</h1>
+    <div style="font-family:Lucida Handwriting;color:yellow;font: size 16px;margin:2px;margin-top:2px;"">
+    <h2>ok then, don't worry i am here to help you here are some amazing desgins for your home just click here</h2>
+    <div>
+    <a href="index.html">
+        <button ><span>click here</span></button>
+        </a>
+</body>
+</html>
