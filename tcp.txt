@@ -1,0 +1,90 @@
+26892	86.303294	172.17.14.38	172.17.7.24	TCP	66	53690 ? 445 [SYN] Seq=0 Win=8192 Len=0 MSS=1460 WS=4 SACK_PERM=1
+26895	86.303722	172.17.7.24	172.17.14.38	TCP	66	445 ? 53690 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1
+26896	86.303982	172.17.14.38	172.17.7.24	TCP	60	53690 ? 445 [ACK] Seq=1 Ack=1 Win=65700 Len=0
+Frame 26896: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{2E4F6698-31C4-4A45-8653-7CAAE9F2D33F}, id 0
+	Interface id: 0 (\Device\NPF_{2E4F6698-31C4-4A45-8653-7CAAE9F2D33F})
+	Encapsulation type: Ethernet (1)
+	Arrival Time: Dec 22, 2021 10:55:15.917144000 India Standard Time
+	[Time shift for this packet: 0.000000000 seconds]
+	Epoch Time: 1640150715.917144000 seconds
+	[Time delta from previous captured frame: 0.000260000 seconds]
+	[Time delta from previous displayed frame: 0.000260000 seconds]
+	[Time since reference or first frame: 86.303982000 seconds]
+	Frame Number: 26896
+	Frame Length: 60 bytes (480 bits)
+	Capture Length: 60 bytes (480 bits)
+	[Frame is marked: False]
+	[Frame is ignored: False]
+	[Protocols in frame: eth:ethertype:ip:tcp]
+	[Coloring Rule Name: TCP]
+	[Coloring Rule String: tcp]
+	Ethernet II, Src: HewlettP_ee:c1:19 (80:c1:6e:ee:c1:19), Dst: HewlettP_b8:6e:db (78:e3:b5:b8:6e:db)
+		Destination: HewlettP_b8:6e:db (78:e3:b5:b8:6e:db)
+		Source: HewlettP_ee:c1:19 (80:c1:6e:ee:c1:19)
+		Type: IPv4 (0x0800)
+		Padding: 000000000000
+	Internet Protocol Version 4, Src: 172.17.14.38, Dst: 172.17.7.24
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+		0000 00.. = Differentiated Services Codepoint: Default (0)
+		.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 40
+	Identification: 0x4a5f (19039)
+	Flags: 0x40, Don't fragment
+		0... .... = Reserved bit: Not set
+		.1.. .... = Don't fragment: Set
+		..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: TCP (6)
+	Header Checksum: 0x4310 [validation disabled]
+	[Header checksum status: Unverified]
+	Source Address: 172.17.14.38
+	Destination Address: 172.17.7.24
+Transmission Control Protocol, Src Port: 53690, Dst Port: 445, Seq: 1, Ack: 1, Len: 0
+	Source Port: 53690
+	Destination Port: 445
+	[Stream index: 0]
+	[Conversation completeness: Complete, NO_DATA (55)]
+	[TCP Segment Len: 0]
+	Sequence Number: 1    (relative sequence number)
+	Sequence Number (raw): 1945978195
+	[Next Sequence Number: 1    (relative sequence number)]
+	Acknowledgment Number: 1    (relative ack number)
+	Acknowledgment number (raw): 3964833926
+	0101 .... = Header Length: 20 bytes (5)
+	Flags: 0x010 (ACK)
+		000. .... .... = Reserved: Not set
+		...0 .... .... = Nonce: Not set
+		.... 0... .... = Congestion Window Reduced (CWR): Not set
+		.... .0.. .... = ECN-Echo: Not set
+		.... ..0. .... = Urgent: Not set
+		.... ...1 .... = Acknowledgment: Set
+		.... .... 0... = Push: Not set
+		.... .... .0.. = Reset: Not set
+		.... .... ..0. = Syn: Not set
+		.... .... ...0 = Fin: Not set
+		[TCP Flags: ·······A····]
+	Window: 16425
+	[Calculated window size: 65700]	
+	[Window size scaling factor: 4]	
+	Checksum: 0xf8a8 [unverified]	
+	[Checksum Status: Unverified]	
+	Urgent Pointer: 0	
+	[Timestamps]	
+		[Time since first frame in this TCP stream: 0.000688000 seconds]	
+		[Time since previous frame in this TCP stream: 0.000260000 seconds]
+	[SEQ/ACK analysis]
+		[This is an ACK to the segment in frame: 26895]
+		[The RTT to ACK the segment was: 0.000260000 seconds]
+		[iRTT: 0.000688000 seconds]
+
+FRAME
+0000   78 e3 b5 b8 6e db 80 c1 6e ee c1 19 08 00 45 00   x...n...n.....E.
+0010   00 28 4a 5f 40 00 80 06 43 10 ac 11 0e 26 ac 11   .(J_@...C....&..
+0020   07 18 d1 ba 01 bd 73 fd 45 53 ec 52 90 86 50 10   ......s.ES.R..P.
+0030   40 29 f8 a8 00 00 00 00 00 00 00 00               @)..........
+
+		
+		
